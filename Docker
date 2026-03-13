@@ -1,0 +1,7 @@
+FROM itzg/minecraft-server
+
+ENV EULA=TRUE
+ENV TYPE=PAPER
+ENV MEMORY=2G
+
+EXPOSE 25565
